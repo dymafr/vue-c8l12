@@ -78,21 +78,26 @@ const cartEmpty = computed(() => state.cart.length === 0);
   grid-template-columns: 75% 25%;
   grid-template-rows: 48px auto 48px;
 }
+
 .gridEmpty {
   grid-template-areas: 'header' 'shop' 'footer';
   grid-template-columns: 100%;
 }
+
 .header {
   grid-area: header;
 }
+
 .shop {
   grid-area: shop;
 }
+
 .cart {
   grid-area: cart;
   border-left: var(--border);
   background-color: white;
 }
+
 .footer {
   grid-area: footer;
 }
