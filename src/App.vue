@@ -30,6 +30,7 @@ function addProductToCart(productId: number): void {
     }
   }
 }
+
 function removeProductFromCart(productId: number): void {
   const productFromCart = state.cart.find(
     (product) => product.id === productId
