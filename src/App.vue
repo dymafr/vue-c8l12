@@ -60,8 +60,8 @@ function removeProductFromCart(productId: number): void {
 </template>
 
 <style lang="scss">
-@import './assets/base.scss';
-@import './assets/debug.scss';
+@import './assets/scss/base.scss';
+@import './assets/scss/debug.scss';
 
 .app-container {
   min-height: 100vh;
